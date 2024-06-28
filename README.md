@@ -13,3 +13,10 @@ Compare different CNN architectures
 GPU-enabled Tensorflow
 
 Keras API
+
+## Library used for processing CIFAR-10 dataset:
+
+Keras is a high-level neural networks API, which runs on Python and uses TensorFlow in the background. It allows for fast prototyping.
+
+![image](https://github.com/diyabodiwala/Image-Classification-Using-CNN/assets/83166513/d3e6c132-99a5-4434-a381-99fff2e85ab3)
+

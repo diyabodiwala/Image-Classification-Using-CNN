@@ -18,5 +18,34 @@ Keras API
 
 Keras is a high-level neural networks API, which runs on Python and uses TensorFlow in the background. It allows for fast prototyping.
 
-![image](https://github.com/diyabodiwala/Image-Classification-Using-CNN/assets/83166513/d3e6c132-99a5-4434-a381-99fff2e85ab3)
+## Convolution Neural Network:
+
+CNNs are one of the most commonly used Neural Networks for Image Classification and Recognition. This is the technique that we are going to use on the CIFAR-10 dataset to classify images in one of the 10 categories.
+CNN has 4 steps:
+1. Convolution
+2. Activation Function
+3. Pooling
+4. Fully Connected Layer - Dense Layer
+
+## Model 1:
+Parameters Used :
+
+Number of convolution layers: 5
+Number of pooling layers: 1
+Number of dropout layers: 1
+Activation Function: tanh
+Optimizer: Adamax
+Kernel Initialization: 
+random-normal 
+Epochs-50
+Batch-size : 32
+
+Accuracy: 79.72%
+Validation Accuracy: 62.14%
+
+Loss:0.579
+Validation Loss:0.6214
+![image](https://github.com/diyabodiwala/Image-Classification-Using-CNN/assets/83166513/9a67af0e-fce0-4ab4-a81b-28be24087ede)
+![image](https://github.com/diyabodiwala/Image-Classification-Using-CNN/assets/83166513/c1ad4de4-c6d5-485b-8ee2-659432b46547)
+
 
